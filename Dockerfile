@@ -1,5 +1,5 @@
 FROM python:latest
-WORKDIR /app
+WORKDIR /
 COPY . .
 RUN pip install Flask
 EXPOSE 3000
